@@ -1,11 +1,11 @@
-Run node http_server.js in terminal
+Software requirements: node js and express installed on machine
 
+Running the server:
+Enter "node http_server.js" in terminal
 
 Get functions:
-localhost:3000/api
-localhost:3000/api/square?num=3
+Go to "localhost:3000/api", "localhost:3000/api/square?num=3" in a browser 
 
-Post functions (can send request through Postman):
-localhost:3000/name
-with username=xyz
+Post functions:
+Send post request through Postman to "localhost:3000/name" with username=xyz as x-www-form-urlencoded key-value pair
 
